@@ -1,0 +1,645 @@
+13:21:54.111 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags ~@ignore
+13:21:54.630 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:21:55.192 [main] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:21:55.355 [main] DEBUG com.intuit.karate - response time in milliseconds: 161
+1 < 200
+1 < Date: Thu, 22 Jun 2023 05:21:55 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 4586
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=OTwTdESQwecvRu83B4FirhU4xCqoPQjzj0rrQqC7rTPG%2FGx1NsGmsiXzpsFVj21n4VSgjUhP4X1FFaeyCiFj3VpFKbgbn8BIzz2wCb3UXujczzMLfk0CS%2B2ThQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7db20cf1af82a3cd-SIN
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+13:21:55.648 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:conduitApp/feature/Articles.feature
+13:25:29.383 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags ~@ignore
+13:25:29.840 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:25:29.844 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1687411529841
+13:25:30.531 [main] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:25:31.233 [main] DEBUG com.intuit.karate - response time in milliseconds: 694
+1 < 200
+1 < Date: Thu, 22 Jun 2023 05:25:31 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: REVALIDATED
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=YQxLQK4uIkjuyC6Ru1ZyzhS8shKh2U2pDh7c3zmQ%2FmAGoj5%2FJ%2B2nDXrtSTuF3Ehl2rbZjvp%2BS7qB3qYhme7jmacz3HwXyqpxE2HrXWU3%2FLY4No7NqK4NnewmVw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7db21233fe3b13e3-KUL
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+13:25:31.298 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/Articles.feature:17
+When call read(userList)
+js failed:
+>>>>
+01: read(userList)
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: src/test/java/conduitApp/feature/Articles.feature
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:126)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:129)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:64)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:121)
+- <js>.:program(Unnamed:1)
+
+classpath:conduitApp/feature/Articles.feature:17
+13:25:31.640 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:conduitApp/feature/Articles.feature
+13:32:13.221 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags ~@ignore
+13:32:13.766 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:32:13.769 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1687411933767
+13:32:14.375 [main] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:32:15.076 [main] DEBUG com.intuit.karate - response time in milliseconds: 696
+1 < 200
+1 < Date: Thu, 22 Jun 2023 05:32:14 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 5054
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=PskUdIcuOIbARekRtAc7821r8gnpydkw45tmuto%2B%2FQjM%2B5dsZ9kBwmXZJqSBTl1aK4JFc4pKgm0LrxYbn4ZXMmgtXJFmfciVLFj8u4WBqcJFd4norniNa5JFkw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7db21c108bc3427b-KUL
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+13:32:15.141 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/Articles.feature:17
+When call read(userList)
+js failed:
+>>>>
+01: read(userList)
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: src/test/java/conduitApp/feature/Articles.feature
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:126)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:129)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:64)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:121)
+- <js>.:program(Unnamed:1)
+
+classpath:conduitApp/feature/Articles.feature:17
+13:32:15.452 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:conduitApp/feature/Articles.feature
+13:33:46.021 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags ~@ignore
+13:33:46.594 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:33:46.598 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1687412026595
+13:33:47.325 [main] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:33:47.596 [main] DEBUG com.intuit.karate - response time in milliseconds: 268
+1 < 200
+1 < Date: Thu, 22 Jun 2023 05:33:47 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 5147
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=7Wz8GZS3CdN%2F3ud1%2Bey4UmqFfgX2rMsA37C46Z3xYKmsm6du%2BLr31w6VKlhsqBeZKe0FFAoDzfNLeOUkj4mbKX8pvw7pigTO2vT0%2BCfWZWAKg68Dj%2BNFYenm6A%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7db21e54fe9d3927-KUL
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+13:33:47.649 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/Articles.feature:17
+When call read(userList)
+js failed:
+>>>>
+01: read(userList)
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: src/test/java/conduitApp/feature/Articles.feature
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:126)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:129)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:64)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:121)
+- <js>.:program(Unnamed:1)
+
+classpath:conduitApp/feature/Articles.feature:17
+13:33:47.970 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:conduitApp/feature/Articles.feature
+13:34:05.702 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags ~@ignore
+13:34:06.199 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:34:06.212 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1687412046200
+13:34:06.797 [main] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:34:07.129 [main] DEBUG com.intuit.karate - response time in milliseconds: 330
+1 < 200
+1 < Date: Thu, 22 Jun 2023 05:34:07 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 5167
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=XkKg6esSmc%2BjeX17NlGW6I1LC%2FnQi7pH8rbAvLoyVC3%2FQiZW3QkPAEkzCNSgbYlRCAPMBrY5ZuU1zEtfNl1EcB3nSQYHmEgsxajyFzFOXRsDZ%2BOyHp4DbtU6OQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7db21ecf197b3893-KUL
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+13:34:07.182 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/Articles.feature:17
+When call read(userList)
+js failed:
+>>>>
+01: read(userList)
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: src/test/java/conduitApp/feature/Articles.feature
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:126)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:129)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:64)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:121)
+- <js>.:program(Unnamed:1)
+
+classpath:conduitApp/feature/Articles.feature:17
+13:34:07.499 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:conduitApp/feature/Articles.feature
+13:36:41.604 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags ~@ignore
+13:36:42.127 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:36:42.130 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1687412202128
+13:36:42.795 [main] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:36:43.002 [main] DEBUG com.intuit.karate - response time in milliseconds: 204
+1 < 200
+1 < Date: Thu, 22 Jun 2023 05:36:43 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 5474
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=QeYfpoGqAq3vf4UGA6rO7EjwDnKbt%2FseYqkorBxzrGk9iW72e%2Fh4t5JrVDbm1zz26O3cC2jtx6YwRqtz6emHMJPD9jXCurHdXEiZcTrXKoXYGZMRA1cq71jljg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7db2229d6eb6a3d3-SIN
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+13:36:43.055 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/Articles.feature:17
+When call read(userList)
+js failed:
+>>>>
+01: read(userList)
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: src/test/java/conduitApp/feature/Articles.feature
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:126)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:129)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:64)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:121)
+- <js>.:program(Unnamed:1)
+
+classpath:conduitApp/feature/Articles.feature:17
+13:36:43.408 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:conduitApp/feature/Articles.feature
+13:58:22.754 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags ~@ignore
+13:58:23.265 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:58:23.269 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1687413503266
+13:58:23.894 [main] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:58:24.144 [main] DEBUG com.intuit.karate - response time in milliseconds: 247
+1 < 200
+1 < Date: Thu, 22 Jun 2023 05:58:24 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 6624
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=IFf1g96OKri8ZnZkJ0DY7p9hOJNY4eVrxfNygxyOF%2BRwnDVH%2FXsWgh0z8BUrUJ9bKqGDhrL%2FVrCce0mnu0%2BSsLa5IdyfFspFkAXOphHJT8PNapB9Izcemsk49g%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7db2426139ab7564-KUL
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+13:58:24.192 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:conduitApp/feature//Articles.feature - call by tag at line 11: GETListOfUsers
+13:58:24.197 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'userList' with new value: 'this:/Articles.feature@GETListOfUsers'
+13:58:24.198 [main] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:58:24.242 [main] DEBUG com.intuit.karate - response time in milliseconds: 43
+1 < 200
+1 < Date: Thu, 22 Jun 2023 05:58:24 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 1973
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=invjeHsgbEhpMBOY149%2FoWOhROkg6sM9hFSHwQV5aLCfOwLKwjMH68f7HS%2FwHCJJbpOp1nA1%2BRV5s91Mvweg8eAQxYOfWFtc6TirwLkbNqDlEO%2F6GT%2BMRSFO5g%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7db242620c0513e0-KUL
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+13:58:24.620 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:conduitApp/feature/Articles.feature
+14:10:23.247 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags ~@ignore
+14:10:23.765 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+14:10:23.768 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1687414223766
+14:10:24.456 [main] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:10:24.629 [main] DEBUG com.intuit.karate - response time in milliseconds: 169
+1 < 200
+1 < Date: Thu, 22 Jun 2023 06:10:24 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 2693
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=uVjWoXvSUiwDM1gB5CnH2DJIrKRDgGABJLRx%2FAVjn8n8oALEV%2Bsk40UJ93mUKxd%2Fl9mdZB62i4CaA8bvmixTv%2Bz74C0o5IzpFp8YZjw9dcHFn4YssgzYxhxPAA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7db253f82ba813e3-KUL
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+14:10:24.670 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:conduitApp/feature//Articles.feature - call by tag at line 11: GETListOfUsers
+14:10:24.674 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'userList' with new value: 'this:/Articles.feature@GETListOfUsers'
+14:10:24.675 [main] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:10:25.123 [main] DEBUG com.intuit.karate - response time in milliseconds: 448
+1 < 200
+1 < Date: Thu, 22 Jun 2023 06:10:25 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: REVALIDATED
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=dJ13jwjNWETKBq2M4BYlnaVEG%2FyojNG%2F63t6FVT%2BMEUWBgXab6eWKnR62BvZq6t%2FufVnnSdtMy6pqrXPOthoccncueN4cG0O%2FlXbMHq3ul9VNfwoZMU2af%2BvyA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7db253f90ef2a3e3-SIN
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+14:10:25.531 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 2 (0 remaining) classpath:conduitApp/feature/Articles.feature
+14:10:25.564 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/assertListOfUsers.feature:10
+When call read(userList)
+js failed:
+>>>>
+01: read(userList)
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: /Users/alouis/Moneylion/karate/target/test-classes/conduitApp/feature/feature/Articles.feature (No such file or directory)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.FeatureParser.parse(FeatureParser.java:70)
+- com.intuit.karate.core.Feature.read(Feature.java:63)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:65)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:121)
+- <js>.:program(Unnamed:1)
+
+classpath:conduitApp/feature/assertListOfUsers.feature:10
+14:10:25.605 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 2 (0 remaining) classpath:conduitApp/feature/assertListOfUsers.feature
+14:10:25.606 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+14:10:53.175 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags ~@ignore
+14:10:53.658 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+14:10:53.667 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1687414253663
+14:10:54.292 [main] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:10:54.515 [main] DEBUG com.intuit.karate - response time in milliseconds: 221
+1 < 200
+1 < Date: Thu, 22 Jun 2023 06:10:54 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 6917
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=82njCLiSiHcb%2F4OJq7Q7VJUDuNCOstooLmKTfvzv6gcgntg3cBvO5kq9W%2FN%2Fa5WvtltmUu6q7D6DRPY2xH3jghdx2pvINnMbRGBu63hira8j7oHI2PvTh5%2FUGA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7db254b2eb1c4927-SIN
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+14:10:54.555 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:conduitApp/feature//Articles.feature - call by tag at line 11: GETListOfUsers
+14:10:54.559 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'userList' with new value: 'this:/Articles.feature@GETListOfUsers'
+14:10:54.560 [main] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:10:54.673 [main] DEBUG com.intuit.karate - response time in milliseconds: 113
+1 < 200
+1 < Date: Thu, 22 Jun 2023 06:10:54 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 29
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=JQdhQmO2jrv2zBa2s%2FTJbLck6xVi9qVsgxUOcW8gvU6lzGWu21u2NQ9tPJD7T%2BxooMcYOHOwna9PolmAHzFZCT5VV26EiBcNzFn0pdbPj7EcGsGD5LVtlVU9Vg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7db254b3eddb18ec-SIN
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+14:10:55.031 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 2 (0 remaining) classpath:conduitApp/feature/Articles.feature
+14:10:55.037 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:conduitApp/feature/Articles.feature - call by tag at line 11: GETListOfUsers
+14:10:55.040 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'userList' with new value: 'this:/Articles.feature@GETListOfUsers'
+14:10:55.041 [main] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:10:55.158 [main] DEBUG com.intuit.karate - response time in milliseconds: 116
+1 < 200
+1 < Date: Thu, 22 Jun 2023 06:10:55 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 6918
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=HzfRvam2iDRze1EZ%2FU1YcvuhHSjR77wXv3%2FWs0PqtEoE1c5sIjSpyjMNjAe9LwL15Srz0jMHACJXgLYa77C0%2FjgQO6tRNbRBm3cfLv9KqJ9xSfLRaZAtqHEjgA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7db254b6db40491e-SIN
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+14:10:55.229 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 2 (0 remaining) classpath:conduitApp/feature/assertListOfUsers.feature
+14:10:55.230 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+15:44:59.862 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags ~@ignore
+15:45:00.469 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:45:00.479 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1687419900476
+15:45:01.081 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:conduitApp/feature/Articles.feature - call by tag at line 10: GETListOfUsers
+15:45:01.087 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'userList' with new value: 'this:/Articles.feature@GETListOfUsers'
+15:45:01.223 [main] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:45:01.603 [main] DEBUG com.intuit.karate - response time in milliseconds: 376
+1 < 200
+1 < Date: Thu, 22 Jun 2023 07:45:01 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 5192
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Ee54bhs03EalauL2zr9bSmYV6lJlhYYniu%2FoFLb8rjvYPSgP%2F7OSfCJl5gTEyv3jNywJZiDbvzHEHwY1C0rz%2BCCQZs78X%2B%2Flt1y0hTfq5Bq%2FVbKAWw7vTRWVLA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7db2de9138eb4625-SIN
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+15:45:02.025 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 2 (0 remaining) classpath:conduitApp/feature/assertListOfUsers.feature
+15:45:02.026 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+15:51:30.637 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags ~@ignore
+15:51:31.273 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: conduitApp/feature/assertListOfUsers.feature - mismatched input '{' expecting <EOF>
+15:52:23.861 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags ~@ignore
+15:52:24.413 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:52:24.417 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1687420344414
+15:52:24.981 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:conduitApp/feature/createUser.feature - call by tag at line 9: POSTCreateUser
+15:52:25.120 [main] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:52:25.681 [main] DEBUG com.intuit.karate - response time in milliseconds: 555
+1 < 201
+1 < Date: Thu, 22 Jun 2023 07:52:25 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 51
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"33-yxaXXoU1BCcmO6dU+lFGuSZP9Uc"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=yBNWqouUXHXA%2B%2FpdeDcmdnWjqiguNl1OuEpJh2E%2BpboeipHqORAvz2psZaq2xz2obQIbzowUIfEURi3GDzESd41uwJytitw7UC%2Fvti5rZCHiOSjmRnwn%2FDIwwg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7db2e966e8a24953-SIN
+{"id":"666","createdAt":"2023-06-22T07:52:25.689Z"}
+
+15:52:26.090 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 3 (0 remaining) classpath:conduitApp/feature/assertListOfUsers.feature
+15:52:26.091 [main] DEBUG com.intuit.karate.Suite - waiting for 3 features to complete
+15:55:22.607 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags ~@ignore
+15:55:23.207 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:55:23.211 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1687420523208
+15:55:23.788 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:conduitApp/feature/Articles.feature - call by tag at line 10: GETListOfUsers
+15:55:23.794 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'userList' with new value: 'this:/Articles.feature@GETListOfUsers'
+15:55:23.912 [main] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:55:24.113 [main] DEBUG com.intuit.karate - response time in milliseconds: 198
+1 < 200
+1 < Date: Thu, 22 Jun 2023 07:55:24 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 5815
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=8IbxekZV7kw1aDyOeNEGH%2Bufs0ofJSYwx947zVF9y8atgST7yFa098nIgqY%2FHIEX7QGDItHJck%2BUfizHkmItiqMdMP6ooznOi%2BHjOWIwW0ltae1jcx4mTOwdXg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7db2edc45d1e4697-SIN
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+15:55:24.123 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/assertListOfUsers.feature:12
+And param {page:2}
+no step-definition method match found for: param {page:2}
+classpath:conduitApp/feature/assertListOfUsers.feature:12
+15:55:24.513 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 3 (0 remaining) classpath:conduitApp/feature/assertListOfUsers.feature
+15:55:24.514 [main] DEBUG com.intuit.karate.Suite - waiting for 3 features to complete
+15:56:08.474 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags ~@ignore
+15:56:09.043 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:56:09.047 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1687420569044
+15:56:09.665 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/assertListOfUsers.feature:11
+* param {page:2}
+no step-definition method match found for: param {page:2}
+classpath:conduitApp/feature/assertListOfUsers.feature:11
+15:56:10.030 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 3 (0 remaining) classpath:conduitApp/feature/assertListOfUsers.feature
+15:56:10.031 [main] DEBUG com.intuit.karate.Suite - waiting for 3 features to complete
+15:58:23.294 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags ~@ignore
+15:58:23.855 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:58:23.859 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1687420703856
+15:58:24.426 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:conduitApp/feature/Articles.feature - call by tag at line 10: GETListOfUsers
+15:58:24.432 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'userList' with new value: 'this:/Articles.feature@GETListOfUsers'
+15:58:24.555 [main] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:58:24.797 [main] DEBUG com.intuit.karate - response time in milliseconds: 240
+1 < 200
+1 < Date: Thu, 22 Jun 2023 07:58:24 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 6479
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=at9qPFi4H6dCyrdtQyJNcmK5xAmRYja8%2FDpAyPs2KPsFx%2BmeD4Pb5IKRytRiTpWQGiJr9%2FjHA9NSfYSnII2oX1bEA1HPqQvzs9gVpPJ2jdQ9VG7k5c%2F859BTrw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7db2f22dab4fa3da-SIN
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+15:58:25.216 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 3 (0 remaining) classpath:conduitApp/feature/assertListOfUsers.feature
+15:58:25.217 [main] DEBUG com.intuit.karate.Suite - waiting for 3 features to complete
